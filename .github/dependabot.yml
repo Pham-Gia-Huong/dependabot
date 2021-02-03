@@ -9,3 +9,17 @@ updates:
       interval: "daily"
     open-pull-requests-limit: 0
     versioning-strategy: widen
+    labels:
+      - "npm v1"
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    # Raise pull requests for version updates
+    # to pip against the `develop` branch
+    target-branch: "dev"
+    versioning-strategy: widen
+    # Labels on pull requests for version updates only
+    labels:
+      - "npm v0"
