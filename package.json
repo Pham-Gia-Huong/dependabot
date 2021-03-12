@@ -10,6 +10,27 @@
   "license": "ISC",
   "devDependencies": {
     "lodash": "3.0.0",
-    "mini-css-extract-plugin": "0.3.0"
+    "mini-css-extract-plugin": "0.3.0",
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@cybozu/eslint-config": "^2.0.2",
+    "@kintone/plugin-packer": "^1.0.4",
+    "@kintone/plugin-uploader": "^2.2.0",
+    "@kintone/webpack-plugin-kintone-plugin": "^4.0.4",
+    "babel-loader": "^8.1.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^4.2.2",
+    "eslint": "^5.16.0",
+    "prettier": "^1.19.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@kintone/kintone-ui-component": "^0.7.4",
+    "@kintone/rest-api-client": "^1.5.2",
+    "file-saver": "^2.0.2",
+    "jszip": "^3.5.0"
   }
 }
