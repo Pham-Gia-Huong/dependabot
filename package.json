@@ -25,7 +25,9 @@
     "prettier": "^1.19.1",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0"
   },
   "dependencies": {
     "@kintone/kintone-ui-component": "^0.7.4",
